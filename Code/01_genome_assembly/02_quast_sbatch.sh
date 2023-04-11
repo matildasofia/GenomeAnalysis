@@ -17,4 +17,4 @@ python quast.py REFERENCE TO ASSEMBLY \
 -o /home/matildas/GenomeAnalysis/Analysis/01_genome_assembly/02_quast_QC \
 -r /proj/genomeanalysis2023/Genome_Analysis/2_Christel_2017/reference/OBMB01.fasta \
 -t 4
-
+--gene-finding
