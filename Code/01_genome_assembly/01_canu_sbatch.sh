@@ -2,7 +2,7 @@
 #SBATCH -A uppmax2023-2-8
 #SBATCH -M snowy
 #SBATCH -p core
-#SBATCH -n 2
+#SBATCH -n 4
 #SBATCH -t 16:00:00
 #SBATCH -J assembly_canu_genome_analysis
 #SBATCH --mail-type=ALL
@@ -21,7 +21,7 @@ canu \
 -p lferriphilum \
 -d $OUTPUT \
 genomeSize=2.41m \
-maxThreads=4 \
 useGrid=false \
+maxThreads=4 \
 -raw \
 -pacbio $INPUT
